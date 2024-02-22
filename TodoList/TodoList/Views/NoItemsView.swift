@@ -18,6 +18,7 @@ struct NoItemsView: View {
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     .fontWeight(.semibold)
                 Text("Are you a productive person? I think you should click the add button and add a bunch of items to your todo list!")
+                    .padding(.bottom, 20)
                 NavigationLink(
                     destination: AddView(), label: {
                         Text("Add Something 🥳")
@@ -29,6 +30,9 @@ struct NoItemsView: View {
                             .cornerRadius(10)
                             .shadow(radius: 4)
                     })
+                .padding(.horizontal, animate ? 30 : 50)
+                .scaleEffect(animate ? 1.1 : 1.0)
+                .offset(y: animate ? -7 : 0)
             }
             .multilineTextAlignment(.center)
             .padding(40)
