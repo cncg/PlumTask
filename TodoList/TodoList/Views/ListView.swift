@@ -15,8 +15,7 @@ struct ListView: View {
     var body: some View {
         ZStack {
             if listViewModel.items.isEmpty {
-                Text("No items yet 🤔")
-                    .fontWeight(.medium)
+                NoItemsView()
             } else {
                 List {
                     ForEach(listViewModel.items) { item in
