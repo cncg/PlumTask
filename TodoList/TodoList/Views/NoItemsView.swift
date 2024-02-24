@@ -31,6 +31,10 @@ struct NoItemsView: View {
                             .shadow(radius: 4)
                     })
                 .padding(.horizontal, animate ? 30 : 50)
+                .shadow(
+                color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/,
+                radius: 10,
+                x: 0.0, y: 0.0)
                 .scaleEffect(animate ? 1.1 : 1.0)
                 .offset(y: animate ? -7 : 0)
             }
