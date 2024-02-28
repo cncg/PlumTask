@@ -30,6 +30,13 @@ import SwiftUI
  ☐ What does .self mean?
  ☐ What are some examples of arrays in modern day applications?
  ☐ What does logic look like in an application and why is it needed? examples of modern day logicx in applications
+ ☐ Can you change the launch screen duration?
+ ☐ How to make AppIcons?
+ ☐ How to identify a deployment ready app by apple guidelines?
+ ☐ When and where to use storyboards in your application?
+ ☐ What are storyboards?
+ ☐ Can you use both UIKit and SwiftUI in your project?
+ 
 
  */
 
